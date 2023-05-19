@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Urbanist:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    border:0;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 100vh;
+}
+header .illus {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 0;
+    z-index: -1;
+}
+.header_contain{
+width: 80%;
+height: 400px;
+margin: 72px 10%;
+display: flex;
+}
+.header_contain .title{
+    width: 30%;
+    height: 100%;
+    box-shadow: 0px 0px 20px 5px;
+    padding: 50px;
+    border-radius: 30px;
+}
+.header_contain .illustration{
+    width: 70%;
+    height: 100%;
+   }
+.header_contain .illustration img{
+    width: 140%;
+    height: 140%;
+   }
+/*diseño del titulo*/
+
+   .header_contain .title{
+    width: 60%;
+    height: 100%;
+   }
+   .header_contain .title  h2{
+    text-transform: uppercase;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+    color: rgb(3, 3, 59);
+    letter-spacing: 3PX;
+    font-size: 15PX;
+    padding: 5px 20px;
+   }
+   .header_contain .title h1{
+    text-transform: capitalize;
+    font-family: 'Bruno Ace', cursive;
+    font-weight: 600;
+    color: rgb(27, 114, 110);
+    letter-spacing: 3PX;
+    font-size: 50PX;
+   }
+   .header_contain .title p{
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+     }
+     .header_contain .title a{
+        padding: 15px 20px;
+        background-color: rgb(3, 28, 95);
+        border-radius: 50px;
+        color: aquamarine;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        box-shadow: 0px 0px 20px 5px;
+    }
+    .header_contain .title a:hover{
+        padding: 15px 30px;
+        background-color: rgb(132, 229, 229);
+        border-radius: 50px;
+        color: rgb(0, 0, 0);
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        box-shadow: 0px 0px 20px 5px;
+        transition: all 1s;
+    }
+
+    /* seccion de descripción*/
+
+    #section_description{
+        width: 75%;
+        height: 700px;
+        margin: 30px 5%;
+        background-image: url("img/fondo.jpg");
+        display:flex;   
+            
+    }
+
+
+    #section_description p{
+        padding: 24px;
+        font-size: 22px;
+        color: rgb(41, 85, 168);
+        font-family: 'Roboto', sans-serif;
+        background-color: aliceblue;
+    }
+ 
+    #section_description .illustration{
+        width: 50%;
+        height: 100%;
+          }
+    #section_description .illustration img{
+              width: 100%; 
+    }
+    #section_description .description{
+        width: 50%;
+        height: 100%;
+        margin: 15px;
+        margin-top: 20%;
+    }
+
+    #section_description .description h2{
+        text-transform: uppercase;
+        font-family: 'Bruno Ace', cursive;
+        font-weight: 400;
+        color: rgb(3, 3, 59);
+        letter-spacing: 3PX;
+        font-size: 17PX;
+        padding: 16px 20px;
+        margin: 20px;
+    }
+
+        /* seccion de ejercicios*/
+
+        #section_ejercicios{
+            width: 75%;
+            height: 700px;
+            margin: 30px 5%;
+            background-image: url("img/fondo.jpg");
+            display:flex;     
+        }
+        .home{
+            width: 50px;
+            height: 50px;
+            margin:15px;
+        }
+        #section_ejercicios .illustration{
+            width: 50%;
+            height: 100%;
+              }
+
+
+        #section_ejercicios .illustration img{
+                  width: 100%; 
+                  height: 100%;
+        }
+
+        #section_ejercicios .lista{
+            line-height: 3;
+            margin: 20px 20px;
+        }
+
+        #section_ejercicios .lista h2{
+            text-transform: uppercase;
+            font-family: 'Bruno Ace', cursive;
+            font-weight: 400;
+            color: rgb(3, 3, 59);
+            letter-spacing: 3PX;
+            font-size: 17PX;
+            padding: 16px 20px;
+            margin: 20px;}
+
+        #section_ejercicios .lista .ind {
+            width: 80%;
+            height: 50px;
+            margin: 30px 0px;
+            transition: 1s;
+            background-color: rgb(3, 28, 95);
+            border-radius: 50px;
+            box-shadow: 0px 0px 20px 5px;
+        }
+        
+    
+        #section_ejercicios .lista .ind a{
+            margin: 10px 10px;
+            padding: 10px 40px;
+            color: aquamarine;
+            font-family: 'Roboto', sans-serif;
+            text-decoration: none;            
+        }
+
+        #section_ejercicios .lista .ind:hover{
+            background-color: rgb(132, 229, 229);
+            box-shadow: 0px 0px 20px 5px; 
+            transition: all 1s;
+            color: black;
+        }
+
+
+

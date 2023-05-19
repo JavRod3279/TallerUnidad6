@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Urbanist:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Bruno Ace', cursive;
+}
+body{
+    background-image: url("img/fondo.jpg");
+    background-repeat: no-repeat;
+    }
+.home{
+    width: 50px;
+    height: 50px;
+    margin:15px;
+}
+.main-cal{
+    width: 50%;
+    padding: 70px;
+    height: 300px;
+    border-radius: 50px;
+    color: hwb(0 0% 100%);
+    background-color: rgba(73, 56, 167, 0.562);
+    box-shadow: 0px 0px 20px 5px;
+    cursor: grab;
+    font-size: 20px;
+    font-weight: 600;
+    position: flex;
+    margin: 10% auto;
+    line-height: 50px;
+}
+
+.main-cal label{
+    font-weight:bold;
+}
+.main-cal h1{
+    font-weight:bold;
+    text-align: center;
+    line-height: 20px;
+    font-size: 25px;
+}
+
+.main-cal input{
+    width: 95%;
+    padding: 15px;
+    height: 10px;
+    border-radius: 50px;
+}
+.main-cal select{
+    width: 100%;
+    padding: 20px;  
+    height: 15px;
+    border-radius: 50px;
+    line-break: normal;   
+}
+button{
+float:right;
+}
