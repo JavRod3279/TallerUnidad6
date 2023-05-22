@@ -14,12 +14,12 @@ body{
 .home{
     width: 50px;
     height: 50px;
-    margin:15px;
-}
+    margin:10px;
+    }
 .main-cal{
-    width: 50%;
-    padding: 70px;
-    height: 300px;
+    width: 80%;
+    padding: 50px;
+    height: 450px;
     border-radius: 50px;
     color:black;
     background-color: rgba(73, 56, 167, 0.562);
@@ -29,7 +29,7 @@ body{
     font-weight: 600;
     position: flex;
     margin: 10% auto;
-    line-height: 40px;
+    line-height: 50px;
 }
 
 .main-cal label{

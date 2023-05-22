@@ -21,7 +21,7 @@ body{
     padding: 70px;
     height: 400px;
     border-radius: 50px;
-    color: hwb(0 0% 100%);
+    color: black;
     background-color: rgba(73, 56, 167, 0.562);
     box-shadow: 0px 0px 20px 5px;
     cursor: grab;

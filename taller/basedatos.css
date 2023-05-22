@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Urbanist:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Bruno Ace', cursive;
+}
+body{
+    background-image: url("img/fondo.jpg");
+    background-repeat: no-repeat;
+    }
+.home{
+    width: 50px;
+    height: 50px;
+    margin:0;
+    background-color: azure;
+}
+.main-cal{
+    width: 80%;
+    padding: 30px;
+    height: 500px;
+    border-radius: 50px;
+    color: black;
+    cursor: grab;
+    font-size: 20px;
+    font-weight: 600;
+    position: flex;
+    margin: 70px 120px;
+    line-height: 40px;
+}
+
+.main-cal label{
+    font-weight:bold;
+}
+.main-cal h1{
+    font-weight:bold;
+    text-align: center;
+    line-height: 20px;
+    font-size: 25px;
+}
+
+.main-cal input{
+    width: 95%;
+    padding: 15px;
+    height: 10px;
+    border-radius: 50px;
+}
+button{
+float:right;
+}
+
+tbody{
+    background-color: rgba(73, 56, 167, 0.562);
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px 5px;
+}
+#searchtools {
+    color: white;
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+.input-radio { color: black; }
+
+.input-textbox {
+    width: 70%;
+    padding: 7px;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold; 
+    margin: 2px;
+    border-radius: 5px; 
+}
+
+#resultTable {
+    margin: 0 auto;
+    border: 1px solid gray;
+    width: 80%;
+	max-width: 500px;
+}
+
+#resultTable th {
+	 text-transform: capitalize;
+  font-size: 1.6em;
+  font-weight: bold;
+    text-align: left;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    font-weight: normal;
+    letter-spacing: -.04em;
+}
+
+#resultTable td {
+    border-bottom: 1px solid silver;
+    padding: 10px;
+}
+
+#resultTable tr:hover {
+    background-color: silver;
+    color: blue;
+}
